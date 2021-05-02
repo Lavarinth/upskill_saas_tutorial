@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'polar-garden-12296.herokuapp.com/',
+  :domain         => 'murmuring-coast-16126.herokuapp.com',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
